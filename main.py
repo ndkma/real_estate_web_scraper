@@ -5,11 +5,11 @@ from selenium.common.exceptions import NoSuchElementException, StaleElementRefer
 import time
 import csv
 
+# Specify how many pages to scrape
+pages_to_scrape = int(input("How many pages do you want to scrape? "))
+
 driver = webdriver.Chrome()
 driver.get('https://www.28hse.com/en/rent/residential')
-
-# Specify how many pages to scrape
-pages_to_scrape = 3
 
 def scrape_page():
     # 'Items' refers to the 'info blocks' that contain listing information
