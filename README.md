@@ -24,13 +24,21 @@ This is repeated based on how many pages you specified.
 It creates a CSV file in the program folder and appends the data to it. The data scraped is as follows:
 
 -Description
+
 -Link to listing page
+
 -District
+
 -Address line 1
+
 -Address line 2
+
 -Saleable and gross area
+
 -Lease price
+
 -Agency name
+
 -Description tags
 
 Please note the data is appended to the CSV file. If you want to rerun the program, delete
